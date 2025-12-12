@@ -14,7 +14,7 @@ with open("Day3\Day3input.txt") as f:
 
 for lists in input_data:
   
-  list_string = str(lists[0])
+  list_string = str(lists)[2:102]
   print(list_string)
   print(str(lists))
   #Finds Ten digit
