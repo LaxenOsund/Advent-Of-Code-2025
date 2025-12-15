@@ -31,7 +31,7 @@ def load_input(filename):
 
                 
 def solve(spans):
-    # 1. Sort spans by their start numbe
+    #Sort spans by their start numbe
     spans.sort(key=lambda x: x[0])
 
     merged = []
